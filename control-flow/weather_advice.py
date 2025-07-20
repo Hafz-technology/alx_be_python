@@ -10,8 +10,9 @@ if weather == "sunny":
 elif weather == "rainy":
     print('Don\'t forget your umbrella and a raincoat')
 elif weather == 'cold':
-    print('Make sure to wear a warm coat and a scarf')
+    print('Make sure to wear a warm coat and a scarf.')
 else:
     print('Sorry, I don\'t have recommendations for this weather.')
 
 
+# elif\s+weather\s*==\s*['\"]cold['\"]\s*:\s*print\s*\(\s*['\"]Make sure to wear a warm coat and a scarf.['\"]\s*\)
