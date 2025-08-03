@@ -15,7 +15,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(2, 3), 5)
         self.assertEqual(self.calc.add(-1, 1), 0)
 
-    def test_subtract(self):
+    def test_subtraction(self):
         """ test subtract"""
         self.assertEqual(self.calc.subtract(10, 3), 7)
         self.assertEqual(self.calc.subtract(-6, -2), -4)
@@ -33,5 +33,3 @@ class TestSimpleCalculator(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    
-
