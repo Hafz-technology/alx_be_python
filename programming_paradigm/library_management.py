@@ -26,6 +26,15 @@ class Book:
             return True
         return False
 
+    def is_available(self):
+        """Returns True if the book is available, False otherwise."""
+        return not self._is_checked_out
+
+    def __str__(self):
+        """Returns a string representation of the book."""
+        status = "Checked Out" if self._is_checked_out else "Available"
+        return f'"{self.title}" by {self.author} ({status})'
+
 
 class Library:
     """Manages the collection of books in the library."""
